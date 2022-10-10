@@ -18,3 +18,10 @@ function conversation() {
 }
 
 conversation()
+
+function futureAge (name, age) {
+    let newAge = age + 5
+    return "Hi " + name + "! You will be " + newAge + " years old in 5 years"
+}
+
+console.log(futureAge("Suzan", 25))
