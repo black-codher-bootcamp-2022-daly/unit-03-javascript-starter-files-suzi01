@@ -4,3 +4,17 @@
 let a = 5
 const b = 10
 let c = a + b
+
+
+function sayHey() {
+    console.log("Hey")
+}
+
+
+function conversation() {
+    sayHey();
+    console.log("How are you?");
+    console.log('Goodbye');
+}
+
+conversation()
