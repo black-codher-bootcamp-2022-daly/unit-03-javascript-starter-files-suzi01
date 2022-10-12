@@ -80,8 +80,14 @@ console.log("Division: x + y " + division);
 
 
 
-
 // ****************************************************TASK 3****************************************************
+
+const myAge = 31;
+const minAge = 16;
+
+let check = myAge > minAge
+
+console.log('True or False - I am old enough to drive? ' + check)
 
 
 
