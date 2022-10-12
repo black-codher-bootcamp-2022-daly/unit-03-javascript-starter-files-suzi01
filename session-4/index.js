@@ -91,15 +91,54 @@ console.log('True or False - I am old enough to drive? ' + check)
 
 
 
+// ****************************************************Homework****************************************************
 
 
+const calculator1 = {
+    add: 0,
+    subtract: 0,
+    multiply: 0,
+    divide: 0
+}
+
+function calculator (num1, num2, obj) {
+    obj.add = num1 + num2;
+    obj.subtract = num1 - num2 
+    obj.multiply = num1 * num2 
+    obj.divide = num1 / num2 
+    // return add
+}
+
+calculator(3, 5, calculator1)
+console.log(calculator1)
+
+// function calculator (num1, num2, obj) {
+//     let obj = {
+//         add: 0,
+//         subtract: 0,
+//         multiply: 0,
+//         divide: 0
+//     }
+
+//     obj.add = num1 + num2;
+//     obj.subtract = num1 - num2 
+//     obj.multiply = num1 * num2 
+//     obj.divide = num1 / num2 
+//     return obj
+// }
 
 
+// console.log((calculator(3, 5, calc))
+
+function whoIsOlder (person1, person2) {
+    if (person1.age > person2.age){
+        let diff = person1.age - person2.age;
+        return `${person1.name} is ${diff} years older than ${person2.name}`;
+    } else {
+        diff = person2.age - person1.age;
+        return `${person2.name} is ${diff} years older than ${person1.name}`;
+    }
+};
 
 
-
-
-
-
-
-
+console.log(whoIsOlder(personA, personB))
