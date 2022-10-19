@@ -30,7 +30,13 @@ console.log(collect)
 // ****************************************************TASK 2****************************************************
 
 
+let sec_count  = 0;
 
+for(let i = 0; i<10; i++){
+    const randomNumber = Math.round(Math.random() * 10);
+    console.log("Random number",randomNumber);
+    sec_count++;
+}
 
 
 
